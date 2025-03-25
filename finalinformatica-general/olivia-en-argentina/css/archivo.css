@@ -1,0 +1,76 @@
+
+/*estilos footer*/
+#btntw{
+    background-color: #55acee;
+}
+
+#btnins{
+    background-color: #ac2bac;
+}
+
+#btnyt{
+    background-color: #e61414;
+}
+
+#btnspo{
+    background-color: #046e24;
+}
+
+/* estilos index*/
+.caja{
+    background-color:#9f84e7 ;  
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado externo */ 
+    text-align: center;
+    justify-content: center;
+}
+
+/* estilos plagio*/
+.body{
+    color: #ffffff;
+}
+
+.infcont{
+    background-color: rgba(255, 255, 255, 0.457) ;;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+
+}
+.texto1{background-color: rgba(176, 100, 211, 0.774) ;}
+.texto2{background-color: rgb(34, 157, 194) ;}
+.texto3{background-color: rgba(176, 100, 211, 0.774) ; }
+.texto4{background-color: rgb(34, 157, 194) ; }
+
+
+.caja1{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-start;
+}
+
+.caja2{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-end;
+}
+
+.caja3 {
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-start; 
+}
+
+.Contenedor{
+    background-color: #afa1f0;
+}
+
+/* mobile*/
+@media screen and (max-width: 768px) {
+    .img {
+        min-width: 100%; /* ajusta tamaño */
+    }
+}
+
+/* mobile*/
+@media screen and (max-width: 768px) {
+    .img-right {
+        min-width: 100%; /* ajusta tamaño */
+    }
+}

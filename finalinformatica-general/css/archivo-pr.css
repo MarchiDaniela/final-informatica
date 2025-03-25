@@ -1,0 +1,107 @@
+
+h2,h3{
+    text-align: center;
+}
+.main {
+    background-color: #afa1f0;
+    /* padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.contenedorBox {
+    display: flex; /* Habilita Flexbox */
+    justify-content: space-between; /* Espacio entre columnas */
+    width: 90%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+.columna {
+    color: #ffffff;
+    background-color: #9377e0; /* Color de fondo de las columnas */
+    flex: 1; /* Las columnas ocupan el mismo espacio */
+    margin: 0 10px; /* Espacio lateral entre columnas */
+    padding: 20px; /* Espacio interno de las columnas */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+}
+
+.imag{
+    text-align: center;
+    align-items:center;
+    padding-left: 25%;
+    min-width: 80%;
+
+}
+
+
+/*estilos footer*/
+#btntw{
+    background-color: #55acee;
+}
+
+#btnins{
+    background-color: #ac2bac;
+}
+
+#btnyt{
+    background-color: #e61414;
+}
+
+#btnspo{
+    background-color: #046e24;
+}
+
+/*estilos de ver mas ver menos*/
+.ver {
+    color: #b989da;
+    font-style: italic;
+    border:#b989da;
+    border-radius: 15px; /*borde redondeado */
+    text-align: center;
+    align-items:center;
+
+}
+
+   /* Media Queries para móviles y tabletas en vertical */
+@media (max-width: 768px) {
+    main {
+        padding: 5px;
+        
+    }
+    .contenedorBox {
+        flex-direction: column; /* Cambia a columnas apiladas */
+        padding: 5px; /* Espaciado interno del contenedor */
+    }
+
+    .columna {
+        margin: 10px 0; /* Espacio vertical entre columnas */
+    }
+}
+.imag{
+    display: flex; 
+    justify-content: center; /* Centrar horizontalmente */ 
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Media Queries para móviles */
+@media (max-width: 480px) {
+    main {
+        padding: 2.5px;
+        
+    }
+    .contenedorBox {
+        flex-direction: column; /* Cambia a columnas apiladas */
+        padding: 2.5px; /* Espaciado interno del contenedor */
+    }
+
+    .columna {
+        margin: 5px; /* Espacio vertical entre columnas */
+    }
+}
+    .imag {
+        max-width: 10em; /* La imagen ocupará todo el ancho del dispositivo */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }

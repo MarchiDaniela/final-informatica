@@ -1,0 +1,162 @@
+/*index*/
+.main-index{
+    background-image: url(/discografia/img/fondo_disc.png);
+    justify-content: center;
+}
+
+#texto{
+    background-color: #8f84f7;
+    color: rgb(255, 255, 255);
+    min-width: 50%;
+   
+}
+
+.imagen{
+    min-width: 50%;
+}
+
+.fot{
+    background-color: #6c64b4;
+    color: #ffffff;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+}
+a{
+    color: #eee;
+}
+
+/*estilos de ver mas ver menos*/
+.ver {
+    color: #b989da;
+    font-style: italic;
+    border:#b989da;
+    border-radius: 15px; /*borde redondeado */
+    text-align: center;
+    align-items:center;
+
+}
+
+/*cuantos premios*/
+
+
+.infcont{
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+
+}
+.texto1{background-color: rgba(176, 100, 211, 0.774) ;}
+.texto2{background-color: rgb(18, 132, 167) ;}
+.grammy{background-color: rgb(178, 102, 223) ;}
+.Billboard{background-color: rgb(241, 92, 229) ;}
+.mtv{background-color: rgb(141, 51, 141) ;}
+.iheart{background-color: rgb(158, 8, 238) ;}
+.peoples{background-color: rgb(155, 10, 118) ;}
+.american{background-color: rgb(126, 78, 182) ;}
+.brit{background-color: rgb(129, 137, 255) ;}
+.guinness{background-color: rgb(155, 10, 118) ;}
+
+/*estilos juego*/
+ 
+
+
+.m {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(117,86,204,1) 0%, rgba(213,105,167,1) 90% );
+    padding-left:35% ;
+    font-size: x-large;
+    color: #ffffff;
+}
+.main {
+    width: 730px;
+     margin: 30px auto;
+     display:flex;
+     align-items: center;
+
+}
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.card {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 100%; /* Mantiene la relación de aspecto cuadrada */
+    overflow: hidden;
+    border: 2px solid #fffefe;
+    cursor: pointer;
+
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.card.flipped {
+    background-color: #ffffff;
+}
+
+
+ header , footer{
+    background-color: aliceblue;
+    padding-bottom: 2em;
+ }
+
+.img-oculta{
+    display: none;
+}
+
+#f{
+    background-color: #ffffff;
+}
+
+
+ /*media query index*/
+@media screen and (max-width: 600px) {
+    .imagen {
+      display: none;
+    }
+    #texto{
+        min-width: 100%;
+    }
+    .img-oculta{
+        display: block;
+        min-width: 100%;
+    }
+  }
+  
+
+  /* mobile premios Y juegos*/
+@media screen and (max-width: 768px) {
+    .img-right {
+        max-width: 100%; /* ajusta tamaño */
+        min-width: 90%;
+    }
+        .card img {
+            min-width: 100%;
+            min-width: 100%;
+            object-fit: cover; /* Ajusta la imagen sin deformarla */
+        }
+
+        .m {
+            padding-left: 5% ;
+            font-size:large;
+            color: #ffffff;
+            min-width: 120%;
+
+        }
+    }
+    
+

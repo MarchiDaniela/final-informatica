@@ -1,0 +1,93 @@
+
+
+/*index*/
+.main{
+    background-color: #afa1f0;
+
+}
+.col{
+    color: #ffffff;
+    justify-content: center;
+    min-width: 50%;
+    background-color: #9377e0;
+    flex: 1; /* Las columnas ocupan el mismo espacio */
+    margin: 5px; /* Espacio lateral entre columnas */
+    padding: 50px; /* Espacio interno de las columnas */
+}
+
+.imgs{
+    margin-left: 10%;
+}
+
+
+/*edad nacimiento*/
+
+.caja{
+    background-color:#a784df ;  
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado externo */ 
+    text-align: center;
+    justify-content: center;
+    color: #ffffffde;
+}
+
+.caja1{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-start;
+}
+
+.caja2{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-end;
+}
+
+.caja3 {
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-start; 
+}
+.caja4{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-end;
+}
+
+.caja5 {
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-start; 
+}
+
+.caja6{
+    display: flex; /* Habilita Flexbox */
+    justify-content: flex-end; 
+
+}
+
+.Contenedor{
+    background-color:#cda3e0de;
+}
+
+.img{
+    min-width: max-content; 
+}
+
+
+
+
+.img-oculta{
+    display: none;
+}
+
+
+
+/* mobile*/
+@media screen and (max-width: 768px) {
+    .img {
+        max-width: 100%;
+        min-width: 80%; /* ajusta tamaño */
+    }
+    .imgs{
+        display: none;
+    }
+    .img-oculta{
+        display: block;
+    }
+}

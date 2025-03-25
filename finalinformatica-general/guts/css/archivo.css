@@ -1,0 +1,77 @@
+
+/*index*/
+.main_index {
+    background-image: url(/guts/img/fondo_guts.jpg);
+}
+
+#texto{
+    background-color: #7f4da093;
+    color: rgb(255, 255, 255);
+    min-width: 50%;
+}
+.container {
+    align-items: center;
+    border-top: 20px;
+    border-right:20px;
+    border-bottom: 20px;
+    border-left: 20px;
+    border-color: black;
+    padding: 20px;
+}
+
+
+/*pagina de contacto*/
+.main1{
+    background-color: #afa1f0;
+    justify-content: center;
+}
+
+/*media query index*/
+@media screen and (max-width: 600px) {
+    .imagen {
+      display: none;
+    }
+    #texto{
+        min-width: 100%;
+    }
+  }
+  
+
+/*conoce al desarrollador*/
+main{
+    background-image: url(/guts/img/fondo-conoceme.jpg);
+    color: rgb(255, 255, 255);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    margin: 0;
+
+}
+.contenedor {
+    width: 60%;
+    height: 100%;
+    font-size:larger;
+    align-items: center;
+    background-color:#afa1f0;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+
+/*media query conoceme*/
+@media screen and (max-width: 600px) {
+
+    .texto{
+        min-width: 100%;
+    }
+    .contenedor{
+        min-width: 100%;
+    }
+  }
+  

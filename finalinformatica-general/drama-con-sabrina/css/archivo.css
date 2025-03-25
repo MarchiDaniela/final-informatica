@@ -1,0 +1,37 @@
+.col{
+    min-width: 30%;
+    flex: 1; /* Las columnas ocupan el mismo espacio */
+    margin: 10px; /* Espacio lateral entre columnas */
+    color: rgb(255, 255, 255);
+    background-color: #9377e0; 
+}
+
+main{
+    background-color: #afa1f0;
+}
+
+img{
+    min-width: 30%;
+}
+
+.img-oculta{
+    display: none;
+}
+
+/*media query index*/
+@media screen and (max-width: 600px) {
+    img {
+      display: none;
+    }
+    .col{
+        min-width: 100%;
+    }
+    .img-oculta{
+        display: block;
+        align-items: center;
+        max-width: 90%;
+    }
+    .container{
+    max-width: 80%;
+    }
+  }

@@ -1,0 +1,112 @@
+.body{
+    background-color: #8363ce;
+}
+
+.container {
+    display: flex;         
+  }
+
+  #texto {
+    min-width: 50%;
+    background-color: #b27bf0ce;
+    min-height: 40%;
+    color: #ffffff;
+  }
+  
+  .imagen {
+    margin: 5px; /* Espacio lateral entre columnas */
+    align-items: center;
+  }
+  
+  /*actriz*/
+.con{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Alinea los hijos en una columna */
+}
+  .imagen {
+  margin: 0; /* Espacio entre los elementos */
+  padding-left: 5%;
+  min-width: 30%;
+  }
+
+  .imag{
+    margin: 0; /* Espacio entre los elementos */
+    margin-left: 25%;
+    min-width: 50%;
+    }
+
+.item {
+ background-color: #7e53ce;
+  margin: 5px 0; /* Espacio entre los elementos */
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 20%;
+  margin-right: 17%;
+}
+
+.main{
+  background-color:#9265ce;
+}
+
+/*estilos footer*/
+#btntw{
+  background-color: #55acee;
+}
+
+#btnins{
+  background-color: #ac2bac;
+}
+
+#btnyt{
+  background-color: #e61414;
+}
+
+#btnspo{
+  background-color: #046e24;
+}
+
+/*estilos de ver mas ver menos*/
+.ver {
+  color: #b989da;
+  font-style: italic;
+  border:#b989da;
+  border-radius: 15px; /*borde redondeado */
+  text-align: center;
+  align-items:center;
+
+}
+
+.img-oculta{
+  display: none;
+}
+
+ /*media query index*/
+ @media screen and (max-width: 600px) {
+  .texto{
+      min-width: 100%;
+  }
+  .item{
+    min-width: 75%;
+    justify-content: center;
+    justify-items: center;
+
+  }
+  .imagen{
+    display: none;
+  }
+  .imag{
+    display: none;
+  }
+  .body{
+    min-width: 170%;
+    padding-left: 10%;
+  }
+
+  .img-oculta{
+    display: block;
+    max-width: 100%;
+    min-width: 90%;
+  }
+
+}
